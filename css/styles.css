@@ -1,7 +1,7 @@
 /* css переменные */
 :root {
-    -- primary-text-color:border: ;
-    -- title-text-color: ;
-    -- accent-color: ;
-    -- primary-background-color: ;
+    -- primary-text-color: #757575;
+    -- title-text-color: #212121;
+    -- accent-color: #2196F3;
+    -- primary-background-color: #E5E5E5;
 }
