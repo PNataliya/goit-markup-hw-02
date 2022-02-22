@@ -4,7 +4,9 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-background-color: #e5e5e5;
+  --font-logo: @font;
 }
+
 body {
   font-family: "Roboto", "Raleway", normal;
   background-color: #ffffff;
@@ -12,34 +14,31 @@ body {
 /* Header */
 .position {
 }
-.logo-header {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-}
+
 /* Логотип */
-.logo-header {
+.logo {
+  text-decoration: none;
 }
-.logo-web {
-  font-family: Raleway;
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--accent-color);
-}
-.logo-studio {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 
-a {
-  text-decoration: none; /* Убираем подчёркивание */
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-white {
+  color: #ffffff;
 }
 
 /* Шапка сайта Heder */
+
 .site-nav .link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,6 +51,7 @@ a {
 }
 
 .link .item {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -186,6 +186,7 @@ li {
 }
 
 .address {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -229,14 +230,12 @@ li {
 }
 
 .portfolio-img-title {
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
 .portfolio-img-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--primary-text-color);
 }
