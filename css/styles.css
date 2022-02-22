@@ -14,7 +14,6 @@ body {
 }
 .logo-header {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
 }
@@ -23,15 +22,12 @@ body {
 }
 .logo-web {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
 .logo-studio {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -44,8 +40,6 @@ a {
 
 /* Шапка сайта Heder */
 .site-nav .link {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,8 +52,6 @@ a {
 }
 
 .link .item {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,8 +74,6 @@ li {
   background: #2f303a;
 }
 .hero-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,8 +83,6 @@ li {
 /* Button Заказать услугу */
 .hero-order {
   cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -111,8 +99,6 @@ li {
 .about-us-list {
 }
 .about-us-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -121,8 +107,6 @@ li {
   color: var(--title-text-color);
 }
 .about-us-item {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -137,8 +121,6 @@ li {
 .doing {
 }
 .doing-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -159,8 +141,6 @@ li {
 .team {
 }
 .team-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -172,16 +152,12 @@ li {
 .covorker {
 }
 .covorker-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-text-color);
 }
 .covorker-position {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -195,7 +171,6 @@ li {
 }
 .place-logo-web {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -204,7 +179,6 @@ li {
 
 .place-logo-studio {
   ont-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -212,16 +186,12 @@ li {
 }
 
 .address {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
 .contact {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -239,9 +209,6 @@ li {
 
 .filter-list .link {
   cursor: pointer;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -262,16 +229,12 @@ li {
 }
 
 .portfolio-img-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
 .portfolio-img-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
