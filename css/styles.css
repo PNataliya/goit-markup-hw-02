@@ -26,6 +26,7 @@ body {
 }
 
 .logo-accent {
+  text-decoration: none;
   color: var(--accent-color);
 }
 /* часть лого в Футере */
