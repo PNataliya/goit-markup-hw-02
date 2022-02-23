@@ -4,22 +4,19 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-background-color: #e5e5e5;
-  --font-logo: @font;
+  --wight-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", "Raleway", normal;
-  background-color: #ffffff;
+  background-color: var(--wight-color);
 }
 /* Header */
-.position {
-}
 
 /* Логотип */
+
 .logo {
   text-decoration: none;
-}
-.logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -31,12 +28,16 @@ body {
 .logo-accent {
   color: var(--accent-color);
 }
+/* часть лого в Футере */
 .logo-white {
-  color: #ffffff;
+  text-decoration: none;
+  color: var(--wight-color);
 }
 
 /* Шапка сайта Heder */
-
+.list {
+  list-style: none;
+}
 .site-nav .link {
   text-decoration: none;
   font-weight: 500;
@@ -50,21 +51,17 @@ body {
   color: var(--accent-color);
 }
 
-.link .item {
+.item {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
-.link .item:hover,
-.link .item:focus {
+.item:hover,
+.item:focus {
   color: var(--accent-color);
-}
-
-li {
-  list-style: none;
 }
 
 /* ГЛАВНАЯ СТРАНИЦА */
@@ -78,28 +75,24 @@ li {
   font-size: 44px;
   line-height: 1.36;
 
-  color: #ffffff;
+  color: var(--wight-color);
 }
 /* Button Заказать услугу */
 .hero-order {
+  font-family: inherit;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
-  color: #ffffff;
+  color: var(--wight-color);
   background-color: var(--accent-color);
 }
 
 /* section Наши качества */
-.qualities {
-}
-.about-us {
-}
-.about-us-list {
-}
+
 .about-us-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -107,21 +100,17 @@ li {
   color: var(--title-text-color);
 }
 .about-us-item {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
 
 /* section Чем мы занимаемся */
-.doing {
-}
+
 .doing-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -129,19 +118,11 @@ li {
 
   color: var(--title-text-color);
 }
-.doing-list {
-}
-.doing-list-keyboard {
-}
-.doing-list-notebook {
-}
-.doing-list-tablet {
-}
+
 /* section Наша команда */
-.team {
-}
+
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -149,8 +130,7 @@ li {
 
   color: var(--title-text-color);
 }
-.covorker {
-}
+
 .covorker-title {
   font-weight: 500;
   font-size: 16px;
@@ -158,44 +138,24 @@ li {
   color: var(--title-text-color);
 }
 .covorker-position {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
-
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Футер */
-.place {
+.footer {
   background: #2f303a;
-}
-.place-logo-web {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-
-.place-logo-studio {
-  ont-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  color: #ffffff;
 }
 
 .address {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--wight-color);
 }
 .contact {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -203,12 +163,7 @@ li {
 /* section Portfolio */
 
 /* фильтр Кнопки */
-.filter {
-}
-.filter-list {
-}
-
-.filter-list .link {
+.filter .link {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -217,24 +172,20 @@ li {
   background-color: #f5f4fa;
 }
 
-.filter-list .link:hover,
-.filter-list .link:focus {
-  color: #ffffff;
+.filter .link:hover,
+.filter .link:focus {
+  color: var(--wight-color);
   background-color: var(--accent-color);
 }
 
 /* таблица с картинками */
-.portfolio-img {
-}
-.portfolio-img-item {
-}
 
-.portfolio-img-title {
+.portfolio-title {
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
-.portfolio-img-text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
