@@ -155,6 +155,7 @@ body {
   color: var(--wight-color);
 }
 .contact {
+  font-size: 14px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -165,6 +166,7 @@ body {
 /* фильтр Кнопки */
 .filter .link {
   cursor: pointer;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
